@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Amine Brahim</title>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Amine Brahim - Développeur Informatique</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2>À propos</h2>
+            <img src="IMG_20210314_212055_130.jpg" alt="Photo de Amine Brahim" class="profile-img">
+            <p>Je suis Amine Brahim, un développeur informatique passionné avec une expertise dans la création de sites web performants et d'applications interactives. Avec une grande maîtrise des technologies telles que HTML, CSS, JavaScript, et des frameworks modernes, je me spécialise dans la conception de solutions adaptées aux besoins des clients tout en gardant une approche axée sur l’utilisateur.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2>Projets</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Site E-commerce</h3>
+                    <p>Développement d'une plateforme e-commerce complète avec intégration de paiement sécurisé et gestion des utilisateurs.</p>
+                </div>
+                <div class="project">
+                    <h3>Application Web Réactive</h3>
+                    <p>Création d'une application web réactive utilisant Vue.js pour une expérience utilisateur fluide et rapide.</p>
+                </div>
+                <div class="project">
+                    <h3>Portfolio Dynamique</h3>
+                    <p>Développement de ce portfolio pour illustrer mes compétences en tant que développeur et mon sens du design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2>Compétences</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Frameworks : Vue.js, React, Angular</li>
+                <li>Développement Backend : Node.js, Express</li>
+                <li>Gestion de bases de données : MySQL, MongoDB</li>
+                <li>Git, GitHub, Agile</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter via <a href="mailto:brahimamine904@gmail.com">brahimamine904@gmail.com</a> ou remplir le formulaire ci-dessous.</p>
+            <form action="mailto:brahimamine904@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Amine Brahim. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
